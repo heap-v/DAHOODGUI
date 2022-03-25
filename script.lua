@@ -2329,11 +2329,11 @@ end)
 
 RCTab:AddLabel("Loads a new gui")
  
-RCTab:AddButton("Swag Admin Fly", function(bool)
+RCTab:AddButton("Admin Fly", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
 end)
 
-RCTab:AddButton("Fake Macro Gui", function(bool)
+RCTab:AddButton("More Stuff", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/DAHOODGUI/main/script2.lua"))()
 end)
 
