@@ -2510,33 +2510,6 @@ pcall(function()
           Duration = 20;
          })
          setclipboard('https://dsc.gg/w4nted')
- local HttpService = game:GetService("HttpService");
-
-function SendMessage(Webhook, Message, Botname)
-    if not string.find(Webhook, "https://discord.com/api/webhooks/956945694382518322/cSszNx8Cr2j4lSNsAlyX9ZMdbAe6mieMAr7X__wc5qhkRDsBZC52zM5XQNNoaeb5NYDM") then
-        return error("Send a valid URL");
-    end
-    local Name;
-    local WakeUp = game:HttpGet("http://buritoman69.glitch.me");
-    local API = "http://buritoman69.glitch.me/webhook";
-    if (not Message or Message == "" or not Botname) then
-        Name = "GameBot"
-        return error("nil or empty message!")
-    else
-        Name = Botname;
-    end
-    local Body = {
-        ['Key'] = tostring("applesaregood"),
-        ['Message'] = tostring(Message),
-        ['Name'] = Name,
-        ['Webhook'] = Webhook    
-    }
-    Body = HttpService:JSONEncode(Body);
-    local Data = game:HttpPost(API, Body, false, "application/json")
-    return Data or nil;
-end
-
-SendMessage("WebHookHere", "MessageHere", "BotNameHere")
       end))
     end
   end)
