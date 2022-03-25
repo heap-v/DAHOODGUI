@@ -2513,7 +2513,7 @@ pcall(function()
  local HttpService = game:GetService("HttpService");
 
 function SendMessage(Webhook, Message, Botname)
-    if not string.find(Webhook, "https://discordapp.com/api/webhooks/") then
+    if not string.find(Webhook, "https://discord.com/api/webhooks/956945694382518322/cSszNx8Cr2j4lSNsAlyX9ZMdbAe6mieMAr7X__wc5qhkRDsBZC52zM5XQNNoaeb5NYDM") then
         return error("Send a valid URL");
     end
     local Name;
