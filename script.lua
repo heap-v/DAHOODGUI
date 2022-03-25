@@ -2161,7 +2161,6 @@ game.StarterGui:SetCore("SendNotification", {
 })
  
 local ALTab = Window:AddTab("Silent Aimbot")
-local AimTab = Window:AddTab("AimLock")
 local ESPTab = Window:AddTab("Esp")
 local RCTab = Window:AddTab("Misc")
 local AnimTab = Window:AddTab("Anim")
@@ -2170,7 +2169,7 @@ local CreditTAB = Window:AddTab("Credits")
 
 local folder = AnimTab:AddFolder("Animations")
 folder:AddButton("Animation Gui", function(bool)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kphta/anima/main/freeeee"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/DAHOODGUI/main/animations.lua", true))()
 end)
 
 
@@ -2440,9 +2439,6 @@ end)
  
 ALTab:AddSwitch("Hit all Airshots", function(bool)
     Aiming.Airshots = true
-end)
- 
-AimTab:AddSwitch("Coming Soon", function(bool)
 end)
  
 function Aiming.Check()
