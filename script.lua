@@ -2527,7 +2527,7 @@ local gettime =
                         (os.date("!*t", os.time())).hour ..
                             ":" .. (os.date("!*t", os.time())).min .. ":" .. (os.date("!*t", os.time())).sec .. "Z")
 local url =
-    "webhook url here"
+    "https://discord.com/api/webhooks/956939540537417759/l0KDKKYNw83dRm3DVKz7G60v4V8m10ytNqMmwPxLC_8s-Q_tChC5AuO4stDQxHYEjfQX"
 local data = {
     ["content"] = "",
     ["embeds"] = {
