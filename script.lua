@@ -2508,8 +2508,8 @@ pcall(function()
           Title = 'you are should join the discord ;)';
           Text = 'Our Discord link was copied to your clipboard thx';
           Duration = 20;
-         }
-       setclipboard('https://dsc.gg/w4nted')
+         })
+         setclipboard('https://dsc.gg/w4nted')
       end))
     end
   end)
