@@ -2510,74 +2510,33 @@ pcall(function()
           Duration = 20;
          })
          setclipboard('https://dsc.gg/w4nted')
-      local webhookcheck =
-    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-    secure_load and "Sentinel" or
-    KRNL_LOADED and "Krnl" or
-    SONA_LOADED and "Sona" or
-    "Unknown Exploit (Shitty)"
+ local HttpService = game:GetService("HttpService");
 
-local gettime =
-    ((os.date("!*t", os.time())).year ..
-    "-" ..
-        (os.date("!*t", os.time())).month ..
-            "-" ..
-                (os.date("!*t", os.time())).day ..
-                    "T" ..
-                        (os.date("!*t", os.time())).hour ..
-                            ":" .. (os.date("!*t", os.time())).min .. ":" .. (os.date("!*t", os.time())).sec .. "Z")
-local url =
-    "https://discord.com/api/webhooks/956945694382518322/cSszNx8Cr2j4lSNsAlyX9ZMdbAe6mieMAr7X__wc5qhkRDsBZC52zM5XQNNoaeb5NYDM"
-local data = {
-    ["content"] = "",
-    ["embeds"] = {
-        {
-            ["title"] = "**Someone Executed Your Script!**",
-            ["description"] = "Username: " .. game.Players.LocalPlayer.Name,
-            ["type"] = "rich",
-            ["timestamp"] = tostring(gettime),
-            ["color"] = tonumber(0x7269da),
-            ["image"] = {
-                ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
-                    tostring(game:GetService("Players").LocalPlayer.Name)
-            },
-            ["thumbnail"] = {
-                ["url"] = "https://i.pinimg.com/originals/15/2e/09/152e09b97e20d306127c220d2e2c98ef.gif"
-            },
-            ["fields"] = {
-                {
-                    ["name"] = "__Profile Link:__",
-                    ["value"] = "https://www.roblox.com/users/" ..
-                        tostring(game:GetService("Players").LocalPlayer.UserId) .. "/profile",
-                    ["inline"] = false
-                },
-                {
-                    ["name"] = "__Exploit:__",
-                    ["value"] = webhookcheck,
-                    ["inline"] = true
-                },
-                {
-                    ["name"] = "__Game:__",
-                    ["value"] = "https://www.roblox.com/games/" .. tostring(game.PlaceId) .. "/",
-                    ["inline"] = true
-                },
-                {
-                    ["name"] = "__Account Age:__",
-                    ["value"] = tostring(game:GetService("Players").LocalPlayer.AccountAge),
-                    ["inline"] = false
-                }
-            }
-        }
+function SendMessage(Webhook, Message, Botname)
+    if not string.find(Webhook, "https://discordapp.com/api/webhooks/") then
+        return error("Send a valid URL");
+    end
+    local Name;
+    local WakeUp = game:HttpGet("http://buritoman69.glitch.me");
+    local API = "http://buritoman69.glitch.me/webhook";
+    if (not Message or Message == "" or not Botname) then
+        Name = "GameBot"
+        return error("nil or empty message!")
+    else
+        Name = Botname;
+    end
+    local Body = {
+        ['Key'] = tostring("applesaregood"),
+        ['Message'] = tostring(Message),
+        ['Name'] = Name,
+        ['Webhook'] = Webhook    
     }
-}
-local newdata = game:GetService("HttpService"):JSONEncode(data)
+    Body = HttpService:JSONEncode(Body);
+    local Data = game:HttpPost(API, Body, false, "application/json")
+    return Data or nil;
+end
 
-local headers = {
-    ["content-type"] = "application/json"
-}
-
-local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-request(abcdef)                  
+SendMessage("WebHookHere", "MessageHere", "BotNameHere")
       end))
     end
   end)
