@@ -2160,7 +2160,7 @@ game.StarterGui:SetCore("SendNotification", {
     Button1 = "Okay";
 })
  
-local ALTab = Window:AddTab("Silent Aimbot")
+local ALTab = Window:AddTab("Main")
 local ESPTab = Window:AddTab("Esp")
 local RCTab = Window:AddTab("Misc")
 local AnimTab = Window:AddTab("Anim")
