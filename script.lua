@@ -2295,12 +2295,12 @@ CreditTAB:AddButton("Made by heap#1000", function(bool)
     local bindableFunction= Instance.new("BindableFunction")
     
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Hii ^^";
+        Title = ":)";
         Text = "Discord Link Copied On Clipboard";
         Icon = "RBXID OR BLANK";
         Duration = "DURATION IN SECONDS";
         callbakc = bindableFunction;
-        Button1 = "Okay ;)";
+        Button1 = "I Love you!";
     })
 end)
  
@@ -2319,12 +2319,12 @@ CreditTAB:AddButton("Join https://dsc.gg/w4nted", function(bool)
     local bindableFunction= Instance.new("BindableFunction")
     
     game.StarterGui:SetCore("SendNotification", {
-        Title = "heap#1000";
+        Title = ":)";
         Text = "Discord Link Copied On Clipboard";
         Icon = "RBXID OR BLANK";
         Duration = "DURATION IN SECONDS";
         callbakc = bindableFunction;
-        Button1 = "Okay, Thanks :)";
+        Button1 = "I Love you!";
     })
 end)
 
@@ -2333,7 +2333,11 @@ RCTab:AddLabel("Loads a new gui")
 RCTab:AddButton("Swag Admin Fly", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
 end)
- 
+
+RCTab:AddButton("Fake Macro Gui", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/DAHOODGUI/main/script2.lua"))()
+end)
+
 RCTab:AddTextBox("Fov Camera", function(text)
     workspace.CurrentCamera.FieldOfView = (text)
 end)
