@@ -196,7 +196,7 @@ Da_Hood_Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Da_Hood_Title.Position = UDim2.new(0.194764942, 0, 0.0148277143, 0)
 Da_Hood_Title.Size = UDim2.new(0.610821784, 0, 0.205160022, 0)
 Da_Hood_Title.Font = Enum.Font.Gotham
-Da_Hood_Title.Text = "heap Macro"
+Da_Hood_Title.Text = "Made by heap#1000"
 Da_Hood_Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Da_Hood_Title.TextScaled = true
 Da_Hood_Title.TextSize = 14.000
@@ -1918,7 +1918,7 @@ local function YROOI_fake_script() -- Main_Scripts_2.Main_Shortener
  
 	script.Parent.Invis.MouseButton1Click:Connect(function(Invis)
 		wait()
-		loadstring(game:HttpGet('https://pastebin.com/raw/uZeF1687'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/DAHOODGUI/main/aimbot.lua", true))()
 	end)
  
 	script.Parent.Noclip.MouseButton1Click:Connect(function(NOCLIP)
@@ -2442,7 +2442,7 @@ local function VLLQM_fake_script() -- Miscellaneous_2.Misc_Main
  
 	script.Parent.Aimbot.MouseButton1Click:Connect(function(AIMBOT)
 		wait()
-		loadstring(game:HttpGet("https://pastebin.com/raw/uw2P2fbY", true))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/DAHOODGUI/main/aimbot.lua", true))()
 	end)
  
 	script.Parent.Anti_AFK.MouseButton1Click:Connect(function(ANTIAFK)
