@@ -1268,7 +1268,7 @@ function InitMain()
 	Title.BackgroundTransparency = 1
 	Title.Size = UDim2.new(1, 0, 0, 50)
 	Title.Font = Enum.Font.SourceSansBold
-	Title.Text = "Project: Bullshit\nMade by: heap#1000\nVersion 3.5.5 (RE-WORK IN THE WORKS)"
+	Title.Text = "Project: Bullshit\nMade by: heap#1000\n[IN THE WORKS]"
 	Title.TextColor3 = Color3.new(1, 1, 1)
 	Title.TextSize = 18
 	Title.TextTransparency = 0.5
@@ -1671,8 +1671,8 @@ function InitMain()
 	TextLabel.Size = UDim2.new(1, -20, 1, 0)
 	TextLabel.Font = Enum.Font.SourceSansBold
 	TextLabel.Text = [[
-Scripting by: Racist Dolphin#5199
-GUI by: SOMEONE WHO WANTS HIS NAME HIDDEN.
+Scripting by: heap#1000
+GUI by: also heap#1000
 
 To hide/show the GUI press the "P" key on your keyboard.
 
@@ -1695,72 +1695,7 @@ A: Raycasting the camera to another player.
 4) My bullets still miss when using aimbot?!
 A: Blame bullet spread, try and control how often you fire. (Murder Mystery 2 = trash) (Why the fuck does a single shot pistol have bullet spread? lol wtf?)
 
-Change Log:
-3/10/2018:
-+ Fixed more bugs with chams
-
-3/10/2018:
-+ Fixed how chams broke when a player respawned.
-
-3/10/2018:
-+ Fixed ESP not updating correctly.
-+ Fixed Chams not updating correctly. (MAYBE? IDK WHAT IS BREAKING THIS)
-
-3/9/2018:
-+ Mob ESP/Chams! (BETA!)
-
-3/8/2018:
-+ Fixed the error you get when not entering a valid number for esp/chams/tracer lengths.
-+ Fixed lag issues with aimlock.
-+ Fixed lag issues with chams.
-
-3/8/2018:
-+ Patch for Murder 15
-- Temporarily removed auto fire since mouse1click is broken on Synapse :(
-
-3/7/2018:
-+ Updated save settings.
-+ Can now customize aimlock key.
-
-3/7/2018:
-+ Patch for Wild Revolver.
-+ Fix for autofire. (Hopefully)
-
-3/6/2018:
-- Removed :IsFriendsWith check. (Use Friends List GUI instead)
-
-3/4/2018:
-+ Added Friend List Menu
-+ Patch for Assassin!
-
-3/4/2018:
-+ Fixed crosshair toggle.
-+ Aimlock patch for Island Royal.
-+ Finally fixed save settings.
-
-3/4/2018:
-+ Aimlock fixed for Unit 1968: Vietnam
-+ Autofire setting for aimlock
-+ Fixed how you sometimes had to double click buttons to activate a option
-
-3/4/2018:
-+ Fixed FreeForAll setting bug.
-+ Using aimlock on Phantom Forces / Jailbreak will now tell you it will not work.
-* Renamed Aimbot back to Aimlock
-
-3/3/2018:
-+ Blacklist feature re-added.
-+ Aimbot will no longer focus people in the blacklist.
-+ Compatible on exploits that have readfile and writefile.
-
-3/3/2018:
-+ GUI Overhaul
-+ Aimbot now only targets people NOT behind walls
-+ Chams now dim when x player is visible on your screen.
-+ Chams no longer have the humanoid root part. (Your welcome)
-+ Patch for Silent Assassin
-+ My discord was deleted, so I'm using pastebin now. (Auto updates :)
-]]
+	]]
 	TextLabel.TextColor3 = Color3.new(1, 1, 1)
 	TextLabel.TextSize = 16
 	TextLabel.TextTransparency = 0.5
