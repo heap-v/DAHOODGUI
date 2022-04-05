@@ -2099,7 +2099,7 @@ do
     library:FormatWindows()
 end
  
-local Window = library:AddWindow("heap#1000", {
+local Window = library:AddWindow("dsc.gg/𝘄4𝗻𝘁𝗲𝗱 〔WantedStudio〕", {
     main_color = Color3.fromRGB(10, 10, 10),
     min_size = Vector2.new(450, 500),
     toggle_key = Enum.KeyCode.RightShift,
@@ -2152,7 +2152,7 @@ end
 local bindableFunction= Instance.new("BindableFunction")
  
 game.StarterGui:SetCore("SendNotification", {
-    Title = "heap#1000";
+    Title = "Made by heap";
     Text = "Welcome";
     Icon = "RBXID OR BLANK";
     Duration = "DURATION IN SECONDS";
