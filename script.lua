@@ -186,7 +186,7 @@ Title.BackgroundTransparency = 1
 Title.Position = UDim2.new(0, 30, 0, 3)
 Title.Size = UDim2.new(0, 200, 0, 20)
 Title.Font = Enum.Font.GothamBold
-Title.Text = "Gamer Time"
+Title.Text = "nigger Time"
 Title.TextColor3 = Color3.new(1, 1, 1)
 Title.TextSize = 14
 Title.TextXAlignment = Enum.TextXAlignment.Left
@@ -2105,7 +2105,7 @@ do
     library:FormatWindows()
 end
  
-local Window = library:AddWindow("dsc.gg/𝘄4𝗻𝘁𝗲𝗱 〔WantedStudio〕", {
+local Window = library:AddWindow("dsc.gg/w4nted", {
     main_color = Color3.fromRGB(10, 10, 10),
     min_size = Vector2.new(450, 500),
     toggle_key = Enum.KeyCode.RightShift,
