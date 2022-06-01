@@ -1,4 +1,4 @@
--- there was no point coming here since theres no fucking key fag
+-- theres no key for this fag
 ------------------------ CODE ------------------------
 print("01X4#0885 is a faggot")
 
@@ -2103,7 +2103,7 @@ do
     library:FormatWindows()
 end
  
-local Window = library:AddWindow("💎 Diamond Hood Gui By heap 💎", {
+local Window = library:AddWindow("dsc.gg/w4nted", {
     main_color = Color3.fromRGB(10, 10, 10),
     min_size = Vector2.new(450, 500),
     toggle_key = Enum.KeyCode.RightShift,
@@ -2168,7 +2168,7 @@ local ALTab = Window:AddTab("Main")
 local ESPTab = Window:AddTab("Esp")
 local RCTab = Window:AddTab("Misc")
 local AnimTab = Window:AddTab("Anim")
-local TpsTab = Window:AddTab("Teleport Help")
+local TpsTab = Window:AddTab("Tps")
 local CreditTAB = Window:AddTab("Credits")
 
 local folder = AnimTab:AddFolder("Animations")
@@ -2177,89 +2177,112 @@ folder:AddButton("Animation Gui", function(bool)
 end)
 
 
-local folder = TpsTab:AddFolder("More Locations")
+local folder = TpsTab:AddFolder("Weapons")
 folder:AddButton("Revolver", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-638.75, 18.8500004, -118.175011, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
  
-folder:AddButton("LMG", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("Ak", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-587.529358, 5.39480686, -753.717712, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
 folder:AddButton("Smg", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-577.123413, 5.47666788, -718.031433, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
-folder:AddButton("Central Guns", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("Aug", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-273.048187, 49.3634033, -213.312408, -1, 0, 0, 0, 1, -8.63220121e-05, -0, -8.63220121e-05, -1)
 end)
 
-folder:AddButton("Food Store", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("AR", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-591.824158, 5.46046877, -744.731628, 0, 0, 1, 0, 1, -0, -1, 0, 0)
 end)
  
-folder:AddButton("DB", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("Double Barrel", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1039.59985, 18.8513641, -256.449951, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
 
-folder:AddButton("Deagle", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("Shotgun", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-578.623657, 5.47212696, -725.131531, 0, 0, 1, 0, 1, -0, -1, 0, 0)
 end)
  
-folder:AddButton("Double Pump", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("Flame Thrower", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-157.122437, 50.9120102, -104.93145, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+ 
+folder:AddButton("Tactical Shotgun", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(470.877533, 45.1272316, -620.630676, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
  
 folder:AddButton("Church", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(147.299988, 18.8493252, 31.7999744, 0, 0, 1, 0, 1, -0, -1, 0, 0)
 end)
  
-folder:AddButton("Silencer", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("Admin Guns", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-872.853516, -34.4276848, -538.013306, -0.999724388, -3.9898886e-08, -0.0234765243, -3.9204977e-08, 1, -3.00177518e-08, 0.0234765243, -2.90890814e-08, -0.999724388)
 end)
  
-folder2:AddButton("Food Store 2", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder:AddButton("Admin Guns 2", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-808.708557, -39.6492004, -932.789368, 0.999899805, 2.01343173e-08, -0.0141554065, -2.17800533e-08, 1, -1.16108232e-07, 0.0141554065, 1.16404912e-07, 0.999899805)
+end)
+ 
+folder:AddButton("Admin Food", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-788.053406, -39.6492004, -932.951233, 0.998369277, 2.46515359e-08, 0.0570784509, -2.8773524e-08, 1, 7.13949646e-08, -0.0570784509, -7.29209759e-08, 0.998369277)
+end)
+ 
+local folder2 = TpsTab:AddFolder("Locations")
+folder2:AddButton("Buy Armor", function(bool)
+    local plr = game.Players.LocalPlayer
+    local savedarmourpos = plr.Character.HumanoidRootPart.Position
+    plr.Character.HumanoidRootPart.CFrame = CFrame.new(-938.476685, -25.2498264, 570.100159, -0.0353576206, 9.85617206e-08, -0.999374807, -2.69198441e-09, 1, 9.871858e-08, 0.999374807, 6.18077589e-09, -0.0353576206)
+    wait(.2)
+ 
+    fireclickdetector(game.Workspace.Ignored.Shop['[High-Medium Armor] - $2300'].ClickDetector)
+    plr.Character.HumanoidRootPart.CFrame = CFrame.new(savedarmourpos)
+end)
+ 
+folder2:AddButton("Ufo", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2.85052466, 132, -736.571106, -0.0460956171, -4.24733706e-08, -0.998937011, 7.26012459e-08, 1, -4.58687275e-08, 0.998937011, -7.46384217e-08, -0.0460956171)
 end)
 
-folder2:AddButton("Casino", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder2:AddButton("Casino 1v1", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-995, 21.6998043, -153.100037, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
  
-folder2:AddButton("Parking Lot", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
-end)
- 
-folder2:AddButton("Bat", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
-end)
- 
-folder2:AddButton("Food Stand", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
-end)
- 
-folder2:AddButton("Invis Mask", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
-end)
- 
-folder2:AddButton("Superpowers", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
-end)
- 
-folder2:AddButton("Shovel", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder2:AddButton("Rpg", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(118.664856, -29.6487694, -272.349792, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 end)
  
 folder2:AddButton("Bank", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-318.891174, 80.2145309, -257.177429, 0.0479469746, -5.14644114e-08, 0.998850107, -3.12971538e-09, 1, 5.16738901e-08, -0.998850107, -5.60372015e-09, 0.0479469746)
 end)
  
-folder2:AddButton("Central Guns Roof", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder2:AddButton("Taco", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(584.026855, 48.1605072, -474.033936, 1, 0, 0, 0, 1, 0, 0, 0, 1)
 end)
  
-folder2:AddButton("Popcorn", function(bool)
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1747.31005859375, -7.1899871826171875, 241.0550079345703)
+folder2:AddButton("Drum Gun", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-83.548996, 19.7020588, -82.1449585, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+ 
+folder2:AddButton("Rev Roof", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-634.463135, 80.434761, -204.232559, -0.0190527271, -1.03574322e-07, -0.999818563, 4.36709335e-09, 1, -1.03676342e-07, 0.999818563, -6.3416179e-09, -0.0190527271)
+end)
+ 
+folder2:AddButton("PlayGround", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-282.694153, 19.7496624, -807.719727, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+ 
+folder2:AddButton("Gas Station", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(604.800415, 46.0998344, -258.249573, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+ 
+folder2:AddButton("Cementery", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.109558, 99.75, -57.2315979, 0.999993503, -0.000633752206, -0.0035054055, 0.000638642872, 0.999998808, 0.00139435288, 0.00350463158, -0.00139658386, 0.999992728)
+end)
+ 
+folder2:AddButton("School Roof", function(bool)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-525.353455, 68.125, 311.824402, 0.999992013, 1.03866675e-08, -0.00399552286, -1.03507425e-08, 1, 9.01170427e-09, 0.00399552286, -8.97027519e-09, 0.999992013)
 end)
  
 CreditTAB:AddButton("Made by heap#1000", function(bool)
@@ -2309,6 +2332,10 @@ CreditTAB:AddButton("Join https://dsc.gg/w4nted", function(bool)
 end)
 
 RCTab:AddLabel("Loads a new gui")
+ 
+RCTab:AddButton("Admin Fly", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/22kristina/swag/main/admin_fly"))()
+end)
 
 RCTab:AddButton("More Stuff", function(bool)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/heap-v/DAHOODGUI/main/script2.lua"))()
