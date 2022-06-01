@@ -1,7 +1,5 @@
--- made by wanted studio
+-- there was no point coming here since theres no fucking key fag
 ------------------------ CODE ------------------------
-print("WantedLock Has Injected!")
-print("HEAP ONTOP 🔝")
 print("01X4#0885 is a faggot")
 
 local ui_options = {
