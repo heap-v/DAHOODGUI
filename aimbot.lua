@@ -1,10 +1,4 @@
--- Issues:
--- I'm still working on Tracers, I know they can cause huge frame rate drops. (I think I got it running as smooth as it's going to get.)
--- Phantom Forces: Weird positioning bug with tracers? Tracer positions a bit behind localplayer. (Maybe make the update faster? > RenderPriority.First ?
-
--- Settings can be found on line: 51
--- Don't change anything if you don't understand.
-
+-- not finished
 local Plrs = game:GetService("Players")
 local Run = game:GetService("RunService")
 local CoreGui = game:GetService("CoreGui")
@@ -15,7 +9,7 @@ local Light = game:GetService("Lighting")
 local HTTP = game:GetService("HttpService")
 local RepStor = game:GetService("ReplicatedStorage")
  
-function GetCamera() -- Just in case some game renames the player's camera.
+function GetCamera() -- Just in case some game renames the user camera
 	return workspace:FindFirstChildOfClass("Camera")
 end
  
@@ -75,31 +69,31 @@ function CloneTable(T)
 end
 
 local Bullshit = {
-	ESPEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
-	CHAMSEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
-	TracersEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
-	DebugInfo = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
+	ESPEnabled = false, -- Self explanatory
+	CHAMSEnabled = false, -- Self explanatory
+	TracersEnabled = false, -- Self explanatory
+	DebugInfo = false, -- Self explanatory
 	OutlinesEnabled = false,
 	FullbrightEnabled = false,
 	CrosshairEnabled = false,
 	AimbotEnabled = false,
 	Aimbot = false,
-	TracersLength = 500, -- MAX DISTANCE IS 2048 DO NOT GO ABOVE OR YOU'LL ENCOUNTER PROBLEMS.
+	TracersLength = 500, -- MAX DISTANCE IS 2048
 	ESPLength = 10000,
 	CHAMSLength = 500,
 	PlaceTracersUnderCharacter = false, -- Change to true if you want tracers to be placed under your character instead of at the bottom of your camera.
-	FreeForAll = false, -- use for games that don't have teams (Apocalypse Rising)
+	FreeForAll = false, -- use for games that don't have teams
 	AutoFire = false,
 	MobChams = false,
 	MobESP = false,
-	AimbotKey = "Enum.UserInputType.MouseButton2", -- Doesn't do anything yet.
+	AimbotKey = "Enum.UserInputType.MouseButton2", -- does nothing yet
 	Colors = {
 		Enemy = Color3.new(1, 0, 0),
 		Ally = Color3.new(0, 1, 0),
 		Friend = Color3.new(1, 1, 0),
 		Neutral = Color3.new(1, 1, 1),
 		Crosshair = Color3.new(1, 0, 0),
-		ColorOverride = nil, -- Every player will have the chosen color regardless of enemy or ally.
+		ColorOverride = nil, -- every user will have a chosen colour no matter if theyre friends
 	},
 
 	-- VVVV DON'T EDIT BELOW VVVV --
